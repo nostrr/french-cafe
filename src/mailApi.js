@@ -27,8 +27,8 @@ export const Email = {
         t.send();
     },
     createCORSRequest: function (e, n) {
-        var t = new XMLHttpRequest;
-        return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XMLHttpRequest ? (t = new XMLHttpRequest).open(e, n) : t = null, t
+        let t = new XMLHttpRequest();
+        return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XMLHttpRequest ? (t = new XMLHttpRequest()).open(e, n) : t = null, t
     }
 };
 

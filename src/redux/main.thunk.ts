@@ -1,5 +1,5 @@
 import {Email, MailData} from '../mailApi';
-import {AsyncThunk, createAsyncThunk} from "@reduxjs/toolkit";
+import {createAsyncThunk} from "@reduxjs/toolkit";
 
 export const sendEmail = createAsyncThunk(
     'main/sendEmail',
