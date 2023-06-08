@@ -8,7 +8,7 @@ export function MainPage() {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <p>
-                    Hello french.cafe :)
+                    Hello french.cafe :)!
                 </p>
                 <div>
                     {/*<Link className="button" to="books">Books</Link>*/}
