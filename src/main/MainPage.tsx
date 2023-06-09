@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../logo.svg";
 import {FormButton} from "./FormButton";
 
-export function MainPage() {
+export const MainPage = () => {
     return (
         <div>
             <header className="App-header">
