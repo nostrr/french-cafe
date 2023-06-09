@@ -27,22 +27,15 @@ export const Email = {
         t.send();
     },
     createCORSRequest: function (e, n) {
-        let t;
-        if ("withCredentials" in t) {
-            t.open(e, n, true);
-        } else if (typeof XMLHttpRequest !== "undefined") {
-            t = new XMLHttpRequest();
-            t.open(e, n);
-        } else {
-            t = null;
-        }
-        return t;
+        let t = new XMLHttpRequest();
+        // eslint-disable-next-line no-sequences
+        return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XMLHttpRequest ? (t = new XMLHttpRequest()).open(e, n) : t = null, t
     }
 };
 
 
 export const MailData = {
-    SecureToken : 'aef83a42-01fa-4fe3-9f84-98a239fb24c8',
+    SecureToken: 'aef83a42-01fa-4fe3-9f84-98a239fb24c8',
     To: 'lukavnev@gmail.com',
     From: "lukavnev2@gmail.com",
     Subject: "Клієнт на сайті"

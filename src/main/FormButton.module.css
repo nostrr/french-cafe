@@ -27,12 +27,14 @@
     z-index: 1;
     display: flex;
     width: 30%;
+    max-width: 100%;
 }
 
 .form{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .formWindow input,
@@ -56,4 +58,8 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
     border-color: #FF3B00;
+}
+
+.buttonInLine{
+    width: 100%;
 }

@@ -57,7 +57,7 @@ export const FormButton = () => {
                             <input type="text" value={formData.phone} name="phone" placeholder="Номер телефону" onChange={handleInputChange}/>
                             <input type="email" value={formData.email} name="email" placeholder="Email" onChange={handleInputChange}/>
                             <textarea value={formData.message} name="message" placeholder="Повідомлення" onChange={handleInputChange}></textarea>
-                            <button className='button' type="submit">Відправити</button>
+                            <button className={`button ${styles.buttonInLine}`} type="submit">Відправити</button>
                         </form>
                     </div>
                 </div>
