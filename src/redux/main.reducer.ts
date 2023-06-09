@@ -30,4 +30,5 @@ const mainSlice: Slice<IMainState> = createSlice({
 })
 
 export default mainSlice.reducer;
+// eslint-disable-next-line no-empty-pattern
 export const {} = mainSlice.actions;
