@@ -22,7 +22,7 @@ function ErrorPage() {
 
 const router = createBrowserRouter([
     {
-        path: 'https://lukavnev.gitlab.io/french-cafe/',
+        path: '/',
         element:
             <div className="App">
                 <Outlet/>
