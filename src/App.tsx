@@ -5,13 +5,11 @@ import {MainPage} from "./main/MainPage";
 import {BooksPage} from "./books/BooksPage";
 
 const NotFound = () => {
-    const location = useLocation();
-
     React.useEffect(() => {
-        window.location.href = '/'; // Перенаправление на index.html
+        window.location.href = '/';
     }, []);
 
-    return null; // Можно вернуть любой другой контент или null
+    return null;
 };
 
 const router = createBrowserRouter([
