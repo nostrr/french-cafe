@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logoF.svg";
+import logo from "../logo.svg";
 import {FormButton} from "./FormButton";
 
 export function MainPage() {
