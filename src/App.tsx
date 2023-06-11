@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import {MainPage} from "./main/MainPage";
 import {
-    createBrowserRouter,
-    createRoutesFromElements,
-    Route, RouterProvider
-} from "react-router-dom";
+  createBrowserRouter, createHashRouter,
+  createRoutesFromElements,
+  Route, RouterProvider,
+} from 'react-router-dom';
 import {BooksPage} from "./books/BooksPage";
 
 
@@ -50,7 +50,7 @@ import {BooksPage} from "./books/BooksPage";
 //     <MainPage/>
 // </div>)
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     createRoutesFromElements(
         <Route path='/'>
             <Route index element={<MainPage/>}/>
