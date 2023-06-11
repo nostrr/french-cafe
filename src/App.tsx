@@ -49,15 +49,26 @@ import {BooksPage} from "./books/BooksPage";
 // const App = () => (<div className='App'>
 //     <MainPage/>
 // </div>)
-
-const router = createHashRouter(
-    createRoutesFromElements(
-        <Route path='/'>
-            <Route index element={<MainPage/>}/>
-            <Route path='books' element={<BooksPage/>}/>
-        </Route>
-    )
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/'>
+      <Route index element={<MainPage/>}/>
+      <Route path='books' element={<BooksPage/>}/>
+    </Route>
+  ),{
+    basename: process.env.PUBLIC_URL
+  }
 )
+
+
+// const router = createHashRouter(
+//     createRoutesFromElements(
+//         <Route path='/'>
+//             <Route index element={<MainPage/>}/>
+//             <Route path='books' element={<BooksPage/>}/>
+//         </Route>
+//     )
+// )
 
 const App = () => <RouterProvider router={router}/>
 
