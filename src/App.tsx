@@ -29,17 +29,6 @@ const router = createBrowserRouter([
   basename: process.env.PUBLIC_URL,
 });
 
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path='/'>
-//       <Route index element={<MainPage />} />
-//       <Route path='books' element={<BooksPage />} />
-//     </Route>,
-//   ), {
-//     basename: process.env.PUBLIC_URL,
-//   },
-// );
-
 const App = () => <RouterProvider router={router}/>
 
 

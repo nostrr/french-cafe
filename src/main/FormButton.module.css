@@ -63,3 +63,10 @@ textarea:focus {
 .buttonInLine{
     width: 100%;
 }
+
+.validateLabel{
+    color: red;
+    font-size:  50%;
+    font-style: italic;
+    margin-top: 5px;
+}
