@@ -1,0 +1,10 @@
+.mainContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 56px;
+    font-family: Lora;
+    font-style: normal;
+    color: #251401;
+}

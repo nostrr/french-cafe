@@ -1,12 +1,18 @@
-import React from "react";
-import logo from "../logo.svg";
-import {FormButton} from "./FormButton";
+import React from 'react';
+import styles from './MainPage.module.css';
 
 export const MainPage = () => {
-    return (
-        <div>
-        </div>
-    );
-}
+  return (
+    <div className={styles.mainContainer}>
+      <div>
+          Атмосферно<br/>
+          та естетично<br/>
+          про французьку<br/>
+      </div>
+    </div>
+  );
+};
+
+
 
 

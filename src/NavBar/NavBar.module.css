@@ -1,5 +1,5 @@
 .navBarContainer{
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,5 +16,6 @@
 
 .linkStyle{
     text-decoration: none;
-    color: #140202
+    color: #140202;
+    font-family: Open Sans;
 }
