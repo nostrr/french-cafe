@@ -21,6 +21,7 @@
 }
 
 .formWindow {
+    border: #D62900 double 5px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
