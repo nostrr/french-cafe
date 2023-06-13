@@ -73,6 +73,13 @@ export const FormButton = () => {
       email: '',
       message: '',
     });
+    setValidData({
+      name: false,
+      phone: false,
+      email: false,
+      message: true,
+      validFields: false
+    });
   };
 
   return (

@@ -8,7 +8,7 @@ export const formValidation: FormValidation = {
     return reg.test(email);
   },
   name: function(name: string): boolean {
-    const reg = /^[A-Za-zА-Яа-яЁёЇїІіЄєҐґ]{2,}$/;
+    const reg = /^[A-Za-zА-Яа-яЁёЇїІіЄєҐґ]{2,}/;
     return reg.test(name);
   },
   phone: function(phone:string):boolean{

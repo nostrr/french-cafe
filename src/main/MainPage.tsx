@@ -8,7 +8,7 @@ export const MainPage = () => {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <p>
-                    Hello french.cafe v 0.1.2 :)!
+                    Hello french.cafe v 0.1.3 :)!
                 </p>
                 <div>
                     <FormButton/>
