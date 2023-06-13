@@ -96,12 +96,12 @@ export const FormButton = () => {
               <label hidden={validData.phone} className={styles.validateLabel}>Цифрове значення(не меньше 10 символів).</label>
               <input type='text' value={formData.phone} name='phone' placeholder='Номер телефону'
                      onChange={handleInputChange} />
-              <label hidden={validData.email} className={styles.validateLabel}>Введіть корректне значення приклад name@gmail.com.</label>
+              <label hidden={validData.email} className={styles.validateLabel}>Введіть корректне значення, приклад name@gmail.com.</label>
               <input type='email' value={formData.email} name='email' placeholder='Email'
                      onChange={handleInputChange} />
               <textarea value={formData.message} name='message' placeholder='Повідомлення'
                         onChange={handleInputChange}></textarea>
-              <button className={`button ${styles.buttonInLine}`} disabled={!validData.validFields}
+              <button className={`button ${styles.buttonInLine} ${styles.button}`} disabled={!validData.validFields}
                       type='submit'>Відправити
               </button>
             </form>

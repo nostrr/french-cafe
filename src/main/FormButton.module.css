@@ -61,7 +61,8 @@ textarea:focus {
 }
 
 .buttonInLine{
-    width: 100%;
+    align-self: center;
+    flex-shrink: 0;
 }
 
 .validateLabel{
@@ -71,3 +72,10 @@ textarea:focus {
     margin-top: 5px;
     text-align: left;
 }
+
+.button:disabled {
+    background-color: #ccc;
+    color: #888;
+    cursor: not-allowed;
+}
+
