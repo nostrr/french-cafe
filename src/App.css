@@ -4,7 +4,7 @@
 
 .App-logo {
     border-radius: 50%;
-    height: 50vmin;
+    height: 10vmin;
     pointer-events: none;
 }
 
@@ -45,7 +45,7 @@
     display: inline-block;
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: #993510;
+    background-color: #251401;
     color: #fff;
     text-decoration: none;
     font-weight: bold;

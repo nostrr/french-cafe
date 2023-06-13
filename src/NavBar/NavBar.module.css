@@ -1,0 +1,20 @@
+.navBarContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color:#140202;
+}
+
+.navBarItem{
+
+}
+
+.linkStyle{
+    text-decoration: none;
+    color: #140202
+}
