@@ -4,15 +4,22 @@ import { MainPage } from './main/MainPage';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import { BooksPage } from './books/BooksPage';
 import { NavBar } from './NavBar/NavBar';
+import { AboutUs } from './aboutUs/AboutUs';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element:
+    element: <div>
       <header className='App-header'>
         <NavBar />
+      </header>
+      <main>
         <Outlet />
-      </header>,
+      </main>
+      <footer>
+
+      </footer>
+    </div>,
     children: [
       {
         path: '/',
@@ -24,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'AboutUs',
-        element: <div>About Us</div>
+        element: <AboutUs/>
       },
       {
         path:'OurCourses',

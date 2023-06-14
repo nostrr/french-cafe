@@ -4,9 +4,10 @@ import { FormButton } from '../main/FormButton';
 import logo from '../logo.svg';
 import { Link } from 'react-router-dom';
 export const NavBar = () => {
+
   return (
     <div className={styles.navBarContainer}>
-      <div className={styles.navBarItem}><img src={logo} className="App-logo" alt="logo"/></div>
+      <div className={styles.navBarItem}><Link to='/'><img src={logo} className="App-logo" alt="logo"/></Link></div>
       <div className={styles.navBarItem}></div>
       <div className={styles.navBarItem}><Link className={styles.linkStyle} to='AboutUs'>Про нас</Link> </div>
       <div className={styles.navBarItem}><Link className={styles.linkStyle} to='OurCourses'>Наші курси</Link></div>
@@ -17,3 +18,7 @@ export const NavBar = () => {
     </div>
   );
 };
+
+<div>
+  Name
+</div>

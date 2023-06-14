@@ -11,7 +11,7 @@
 }
 
 .navBarItem{
-
+    display: flex;
 }
 
 .linkStyle{
