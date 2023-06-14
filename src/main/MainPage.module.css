@@ -27,12 +27,12 @@
 /*}*/
 
 .mainBlock {
-    margin: 34.49vh 2.98vw 39.83vh 65.7vw;
-    font-size: 7.48vmin;
+    margin: 34.49vh 8vw 39.83vh 65.7vw;
+    font-size: 7vh;
     font-style: normal;
     color: #251401;
     font-family: Lora;
-    line-height: 8.55vh;
-    width: 31.25vw;
-    height: 25.66vh;
+    line-height: 7vh;
+    /*width: 31.25vw;*/
+    /*height: 25.66vh;*/
 }
