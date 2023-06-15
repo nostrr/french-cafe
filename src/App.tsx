@@ -14,7 +14,9 @@ const router = createBrowserRouter([
         <NavBar />
       </header>
       <main>
-        <Outlet />
+        {/*<MainPage />*/}
+        {/*<AboutUs/>*/}
+        <Outlet/>
       </main>
       <footer>
 

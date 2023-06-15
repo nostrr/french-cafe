@@ -1,6 +1,7 @@
 import styles from './AboutUs.module.css';
 import { Link } from 'react-router-dom';
 import foto from './img.png';
+import foto2 from './img2.png';
 
 export const AboutUs = () => {
   return (
@@ -26,10 +27,8 @@ export const AboutUs = () => {
           <img className={styles.middlePhoto} src={foto} alt='Image' />
         </div>
         <div className={`${styles.col} ${styles.col3}`}>
-          <div>
-              Картинка
-          </div>
-          <div>
+          <img className={styles.rightPhoto} src={foto2} alt='Image' />
+          <div className={styles.aboutUsTitle}>
             Про нас
           </div>
         </div>

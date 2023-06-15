@@ -4,7 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     color:#140202;
