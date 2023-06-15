@@ -25,7 +25,14 @@ export const AboutUs = () => {
         <div className={`${styles.col} ${styles.col2}`}>
           <img className={styles.middlePhoto} src={foto} alt='Image' />
         </div>
-        <div className={styles.col}>3</div>
+        <div className={`${styles.col} ${styles.col3}`}>
+          <div>
+              Картинка
+          </div>
+          <div>
+            Про нас
+          </div>
+        </div>
       </div>
     </div>
   );
