@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './NavBar.module.css'
-import { FormButton } from '../main/FormButton';
+import { FormButton } from '../Main/FormButton';
 import logo from '../logo.svg';
 import { Link } from 'react-router-dom';
 export const NavBar = () => {
@@ -18,7 +18,3 @@ export const NavBar = () => {
     </div>
   );
 };
-
-<div>
-  Name
-</div>

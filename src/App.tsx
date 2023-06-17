@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import { MainPage } from './main/MainPage';
+import { MainPage } from './Main/MainPage';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
-import { BooksPage } from './books/BooksPage';
+import { BooksPage } from './Books/BooksPage';
 import { NavBar } from './NavBar/NavBar';
-import { AboutUs } from './aboutUs/AboutUs';
+import { AboutUs } from './AboutUs/AboutUs';
+import { WeProud } from './WeProud/WeProud';
 
 const router = createBrowserRouter([
   {
@@ -40,12 +41,16 @@ const router = createBrowserRouter([
         element:<div></div>
       },
       {
-        path:"OurProducs",
+        path:"OurProducts",
         element:<div></div>
       },
       {
-        path:"team",
+        path:"Team",
         element:<div></div>
+      },
+      {
+        path:"WeProud",
+        element: <WeProud/>
       }
     ],
   },
