@@ -15,9 +15,10 @@ const router = createBrowserRouter([
         <NavBar />
       </header>
       <main>
-        {/*<MainPage />*/}
-        {/*<AboutUs/>*/}
-        <Outlet/>
+        <MainPage />
+        <AboutUs/>
+        <WeProud/>
+        {/*<Outlet/>*/}
       </main>
       <footer>
 

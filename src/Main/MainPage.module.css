@@ -11,20 +11,6 @@
 
 }
 
-/*.mainBlock{*/
-/*    font-style: normal;*/
-/*    color: #251401;*/
-/*    font-family: Lora;*/
-/*    line-height: 8.55vh;*/
-/*    width: 50%;*/
-/*    font-size: 7vmin;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.textBlock {*/
-/*    width: 26.69vw;*/
-/*}*/
 
 .mainBlock {
     margin: 34.49vh 8vw 39.83vh 65.7vw;
@@ -33,6 +19,4 @@
     color: #251401;
     font-family: Lora;
     line-height: 4vw;
-    /*width: 31.25vw;*/
-    /*height: 25.66vh;*/
 }
