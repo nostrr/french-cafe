@@ -2,6 +2,7 @@ import styles from './AboutUs.module.scss';
 import { Link } from 'react-router-dom';
 import photo from './img.png';
 import photo2 from './img2.png';
+import { TopicContent } from '../CommonComponents/TopicContent';
 
 export const AboutUs = () => {
   return (
@@ -34,15 +35,3 @@ export const AboutUs = () => {
   );
 };
 
-const TopicContent = ({topic, children}: {topic: string, children: string}) => {
-  return(
-    <>
-      <div className={styles.topic}>
-        {topic}
-      </div>
-      <div className={styles.textContent}>
-        {children}
-      </div>
-    </>
-  )
-}

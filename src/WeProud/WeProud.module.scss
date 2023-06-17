@@ -1,3 +1,6 @@
+$width: 100vw / 1440px;
+$height: 100vh / 750px;
+
 .backroundColorContainer{
 
 }
@@ -10,7 +13,63 @@
   align-items: start;
 }
 
+.topic{
+  font-family: Lora;
+  font-size: 6.47vmin;
+  font-weight:normal;
+  line-height: 6.6vh;
+}
+
 .col{
   margin: 10px;
   padding: 20px;
+}
+
+.col1{
+  flex:1 0;
+  padding-left: 6.94vw;
+}
+
+.col2{
+  flex: 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.col3{
+  flex:1 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo{
+  margin-top: 50%;
+  flex: 1 0;
+  max-width: 60%;
+  height: auto;
+}
+
+.linkStyle{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: Open Sans;
+}
+
+.rightPhoto{
+  max-width: 65%;
+  height: auto;
+}
+
+.aboutUsTitle{
+  align-self: center;
+  margin-top: 80%;
+  font-family: 'Lora';
+  font-style: normal;
+  font-size: $width * 32px;
+  line-height: 1.5vmax;
 }

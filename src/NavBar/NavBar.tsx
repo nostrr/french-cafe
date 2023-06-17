@@ -11,7 +11,7 @@ export const NavBar = () => {
       <div className={styles.navBarItem}></div>
       <div className={styles.navBarItem}><Link className={styles.linkStyle} to='AboutUs'>Про нас</Link> </div>
       <div className={styles.navBarItem}><Link className={styles.linkStyle} to='OurCourses'>Наші курси</Link></div>
-      <div className={styles.navBarItem}><Link className={styles.linkStyle} to='OurProducs'>Наші продукти</Link></div>
+      <div className={styles.navBarItem}><Link className={styles.linkStyle} to='OurProducts'>Наші продукти</Link></div>
       <div className={styles.navBarItem}><Link className={styles.linkStyle} to='Team'>Команда</Link></div>
       <div className={styles.navBarItem}></div>
       <div className={styles.navBarItem}><FormButton/></div>
