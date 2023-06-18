@@ -6,6 +6,7 @@ import { BooksPage } from './Books/BooksPage';
 import { NavBar } from './NavBar/NavBar';
 import { AboutUs } from './AboutUs/AboutUs';
 import { WeProud } from './WeProud/WeProud';
+import { WeAreTrusted } from './WeAreTrusted/WeAreTrusted';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
         <MainPage />
         <AboutUs/>
         <WeProud/>
+        <WeAreTrusted/>
         {/*<Outlet/>*/}
       </main>
       <footer>
@@ -52,6 +54,10 @@ const router = createBrowserRouter([
       {
         path:"WeProud",
         element: <WeProud/>
+      },
+      {
+        path:'WeAreTrusted',
+        element:<WeAreTrusted/>
       }
     ],
   },

@@ -1,0 +1,84 @@
+$width: 100vw / 1440px;
+$height: 100vh / 750px;
+
+.backgroundColorContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  background-color: #993510;
+  min-height: $height * 700px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15vmin;
+  margin-bottom: 15vmin;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.col {
+  margin: 10px;
+  padding: 20px;
+}
+
+.col1 {
+  flex: 1 0;
+  padding-left: 6.94vw;
+}
+
+.title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #F3EDED;
+}
+
+.col2 {
+  flex: 3 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 10vw;
+}
+
+.firstRow {
+  //min-width: $width * 727px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $height *32px;
+  line-height:$height * 42px;
+  color: #F3EDED;
+}
+
+.secondRow{
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.commentPerson{
+  padding-left: 2vw;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: $height*16px;
+  line-height: $height *24px;
+  color: #F3EDED;
+}
+
+.thirdRow{
+  align-self: flex-end;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $height*32px;
+  line-height: $height*10px;
+  color: #F3EDED;
+  padding-top: 10vh;
+}

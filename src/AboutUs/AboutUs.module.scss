@@ -12,7 +12,7 @@ $height: 100vh / 750px;
 
 .pageImage {
   background: #F3EDED;
-  z-index: -1;
+  z-index: 1;
   display: flex;
   min-height: 100vh;
 }

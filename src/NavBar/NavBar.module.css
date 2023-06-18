@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%;
     color:#140202;

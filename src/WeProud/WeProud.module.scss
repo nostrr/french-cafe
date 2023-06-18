@@ -2,9 +2,10 @@ $width: 100vw / 1440px;
 $height: 100vh / 750px;
 
 .backroundColorContainer{
-  position: absolute;
+  //position: absolute;
   display: flex;
   min-height: 100vh;
+  //z-index: -1;
 }
 
 .mainContainer{
@@ -13,6 +14,7 @@ $height: 100vh / 750px;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: start;
+  margin-bottom: 15vmin;
 }
 
 .topic{
