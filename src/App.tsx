@@ -7,6 +7,7 @@ import { NavBar } from './NavBar/NavBar';
 import { AboutUs } from './AboutUs/AboutUs';
 import { WeProud } from './WeProud/WeProud';
 import { WeAreTrusted } from './WeAreTrusted/WeAreTrusted';
+import { MyInstagram } from './MyInstagram/MyInstagram';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
         <AboutUs/>
         <WeProud/>
         <WeAreTrusted/>
-        {/*<Outlet/>*/}
+        <MyInstagram/>
+        {/*<Outlet />*/}
       </main>
       <footer>
 
@@ -37,28 +39,32 @@ const router = createBrowserRouter([
       },
       {
         path: 'AboutUs',
-        element: <AboutUs/>
+        element: <AboutUs />,
       },
       {
-        path:'OurCourses',
-        element:<div></div>
+        path: 'OurCourses',
+        element: <div></div>,
       },
       {
-        path:"OurProducts",
-        element:<div></div>
+        path: 'OurProducts',
+        element: <div></div>,
       },
       {
-        path:"Team",
-        element:<div></div>
+        path: 'Team',
+        element: <div></div>,
       },
       {
-        path:"WeProud",
-        element: <WeProud/>
+        path: 'WeProud',
+        element: <WeProud />,
       },
       {
-        path:'WeAreTrusted',
-        element:<WeAreTrusted/>
-      }
+        path: 'WeAreTrusted',
+        element: <WeAreTrusted />,
+      },
+      {
+        path: 'MyInstagram',
+        element: <MyInstagram />,
+      },
     ],
   },
 ], {

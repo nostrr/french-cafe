@@ -5,7 +5,9 @@
 }
 
 .flexСontainer {
+    margin-top: 20vh;
     border: 10px solid #7f00ff;
+
 }
 
 .flexItem {
@@ -46,20 +48,15 @@
 .flexСontainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    height: 20vh;
-    align-items: flex-start;
-    overflow: hidden;
+    /*justify-content: center;*/
+    align-items: start;
+    height: 200px;
 }
 
 .flexItem{
-    min-width: 30vw;
-    /*flex: 1 0 100%;*/
-    flex-grow: 1;
 }
 
 .item3{
-
 }
 
 

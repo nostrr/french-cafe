@@ -1,0 +1,102 @@
+$width: 100vw / 1440px;
+$height: 100vh / 750px;
+
+.backgroundColorContainer {
+}
+
+.mainContainer {
+  margin-top: 15vmin;
+  margin-bottom: 15vmin;
+  margin-left: 6.94vw;
+  margin-right: 6.94vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondRow{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size:  $width*16px;
+  line-height: $width*24px;
+  text-decoration-line: underline;
+  color: #251401;
+  text-align: center;
+}
+
+.thirdRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  flex: 1 0;
+}
+
+.col2 {
+  flex: 1.5 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col3 {
+  flex: 1 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.col4 {
+  flex: 1 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $width*48px;
+  line-height: $width*56px;
+  color: #251401;
+}
+
+.photo1 {
+  margin-top: 10vh;
+  width: $width*288px;
+  height: auto;
+}
+
+.photo2 {
+  align-self: flex-end;
+  width: $width*499px;
+  height: auto;
+}
+
+.photo3 {
+  width: $width*450px;
+  height: auto;
+  margin-top: 20vh;
+}
+
+.photo4 {
+  width: $width*300px;
+  height: auto;
+}
+
+.frenchCafe{
+  align-self: flex-start;
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-size: $width*48px;
+  line-height: $width*56px;
+  color: #251401;
+}
+
