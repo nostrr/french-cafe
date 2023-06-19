@@ -26,8 +26,7 @@ export const AboutUs = () => {
         <div className={`${styles.col} ${styles.col3}`}>
           <img className={styles.rightPhoto} src={photo2} alt='Image' />
           <div className={styles.aboutUsTitle}>
-            Про нас<br/>
-          __________
+            Про нас&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
           </div>
         </div>
       </div>

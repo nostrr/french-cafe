@@ -73,5 +73,6 @@ $height: 100vh / 750px;
   font-family: 'Lora';
   font-style: normal;
   font-size: $width * 32px;
-  line-height: 1.5vmax;
+  line-height: $height*36px;
+  border-bottom: 2px solid black;
 }

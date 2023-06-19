@@ -8,6 +8,7 @@ import { AboutUs } from './AboutUs/AboutUs';
 import { WeProud } from './WeProud/WeProud';
 import { WeAreTrusted } from './WeAreTrusted/WeAreTrusted';
 import { MyInstagram } from './MyInstagram/MyInstagram';
+import { YourQuestions } from './YourQuestions/YourQuestions';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
         <WeProud/>
         <WeAreTrusted/>
         <MyInstagram/>
+        <YourQuestions/>
         {/*<Outlet />*/}
       </main>
       <footer>
@@ -65,6 +67,10 @@ const router = createBrowserRouter([
         path: 'MyInstagram',
         element: <MyInstagram />,
       },
+      {
+        path: 'YourQuestions',
+        element:<YourQuestions/>
+      }
     ],
   },
 ], {

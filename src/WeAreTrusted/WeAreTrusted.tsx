@@ -26,8 +26,8 @@ export const WeAreTrusted = () => {
               </div>
           </div>
           <div className={styles.thirdRow}>
-            Відгуки<br/>
-            _____________
+            Відгуки&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+            <br/>
           </div>
         </div>
       </div>

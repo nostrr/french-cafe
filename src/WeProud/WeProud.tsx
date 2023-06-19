@@ -39,8 +39,7 @@ export const WeProud = () => {
           <img className={styles.rightPhoto} src={photo2} alt='Image' />
           <div className={styles.aboutUsTitle}>
             Ми у<br/>
-            цифрах<br/>
-            __________
+            цифрах&nbsp;&nbsp;&nbsp;<br/>
           </div>
         </div>
       </div>

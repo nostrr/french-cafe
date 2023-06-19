@@ -1,0 +1,78 @@
+$width: 100vw / 1440px;
+$height: 100vh / 750px;
+
+.backgroundColorContainer {
+  //min-height: $height*1029px;
+  background: #F3EDED;
+  display: flex;
+}
+
+.mainContainer {
+  margin-top: 15vmin;
+  margin-bottom: 15vmin;
+  margin-left: 6.94vw;
+  margin-right: 6.94vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  padding-bottom: 5vh;
+}
+
+.row1 {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $height*48px;
+  line-height: $width*56px;
+  color: #251401;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row3 {
+  display: flex;
+}
+
+.row4 {
+  display: flex;
+}
+
+.row5 {
+  display: flex;
+}
+
+.row6 {
+  align-self: flex-end;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $height*32px;
+  line-height: $height*36px;
+  color: #251401;
+  border-bottom: 2px solid black;
+}
+
+.questString {
+  padding-right: 3vh;
+  flex: 1 0;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $height*40px;
+  line-height: $height*48px;
+  color: #251401;
+}
+
+.contentText {
+  flex: 1 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $height*16px;
+  line-height: $height*24px;
+  color: #9B9185;
+}
