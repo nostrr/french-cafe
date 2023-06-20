@@ -6,7 +6,7 @@ import photo2 from './img2.png';
 
 export const WeProud = () => {
   return (
-    <div className={styles.backroundColorContainer}>
+    <div className={styles.backgroundColorContainer}>
       <div className={styles.mainContainer}>
         <div className={`${styles.col} ${styles.col1}`}>
           <div className={styles.topic}>

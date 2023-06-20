@@ -20,7 +20,9 @@ export const MyInstagram = () => {
             <div className={styles.frenchCafe}>
               @the.french.cafe<br />
               <div className={styles.secondRow}>
-                <a href='https://www.instagram.com/the.french.cafe?hl=ru'>Підписатись</a>
+                <a href='https://www.instagram.com/the.french.cafe?hl=ru' target='_blank'>
+                  Підписатись
+                </a>
               </div>
             </div>
           </div>

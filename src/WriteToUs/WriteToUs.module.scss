@@ -1,0 +1,46 @@
+$width: 100vw / 1440px;
+$height: 100vh / 750px;
+
+.backgroundColorContainer {
+  display: flex;
+}
+
+.mainContainer {
+  flex: 1;
+  margin-top: 15vmin;
+  margin-bottom: 15vmin;
+  margin-left: 6.94vw;
+  margin-right: 6.94vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 0;
+}
+
+.col1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col2 {
+  padding-left: 10vw;
+}
+
+.photo {
+  height: 90vh;
+  width: auto;
+}
+
+.questions{
+  padding: 20px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #251401;
+}

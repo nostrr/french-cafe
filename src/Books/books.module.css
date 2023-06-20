@@ -56,6 +56,12 @@
 .flexItem{
 }
 
+.item2{
+    display: flex;
+    background: #61dafb;
+
+}
+
 .item3{
 }
 

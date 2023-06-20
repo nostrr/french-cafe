@@ -1,0 +1,68 @@
+$width: 100vw / 1440px;
+$height: 100vh / 750px;
+
+
+
+.formWindow {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.formWindow input,
+.formWindow textarea {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  box-shadow: 0 0 5px 2px #29a0c7;
+}
+
+.buttonInLine{
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.validateLabel{
+  color: black;
+  margin: 5px 2px;
+  text-align: left;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $width*16px;
+  line-height: $width*28px;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+}

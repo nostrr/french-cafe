@@ -12,7 +12,7 @@ export const formValidation: FormValidation = {
     return reg.test(name);
   },
   phone: function(phone:string):boolean{
-    const req = /^(\+)?\d{10,}$/;
+    const req = /^\+380 \(\d{2}\) \d{3} \d{2} \d{2}$/;
     return req.test(phone);
   },
   message: function(message:string): boolean{
