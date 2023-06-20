@@ -10,6 +10,7 @@ import { WeAreTrusted } from './WeAreTrusted/WeAreTrusted';
 import { MyInstagram } from './MyInstagram/MyInstagram';
 import { YourQuestions } from './YourQuestions/YourQuestions';
 import { WriteToUs } from './WriteToUs/WriteToUs';
+import { Footer } from './Footer/Footer';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
         {/*<Outlet />*/}
       </main>
       <footer>
-
+          <Footer/>
       </footer>
     </div>,
     children: [

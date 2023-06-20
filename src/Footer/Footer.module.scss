@@ -1,0 +1,37 @@
+$width: 100vw / 1440px;
+$height: 100vh / 750px;
+
+.backgroundColorContainer {
+  display: flex;
+  background: #251401;
+}
+
+.mainContainer{
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
+  margin-left: 6.94vw;
+  margin-right: 6.94vw;
+}
+
+.col1{
+  color: #FCFEFF;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.col2{
+  margin-right: 20%;
+  color: #FCFEFF;
+  align-self: center;
+}
+
+.col3{
+  align-self: center;
+  flex: 2 0;
+  display: flex;
+  justify-content: space-evenly;
+  color: #FCFEFF;
+}

@@ -9,7 +9,8 @@ export const NavBar = () => {
   return (
     <div className={styles.navBarContainer}>
       <div className={styles.navBarItem}>
-        <Link to='/'><img src={logo} className='App-logo' alt='logo' /></Link></div>
+        <Link to='/'><img src={logo} className='App-logo' alt='logo' /></Link>
+      </div>
       <div className={styles.navBarItem}></div>
       <div className={styles.navBarItem}>
         <Link className={styles.linkStyle} to='AboutUs'>
