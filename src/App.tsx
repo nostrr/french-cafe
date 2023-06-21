@@ -15,7 +15,7 @@ import { Footer } from './Footer/Footer';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>
+    element: <div style={{minWidth : '1440px'}}>
       <header className='App-header'>
         <NavBar />
       </header>
