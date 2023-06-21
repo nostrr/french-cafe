@@ -1,17 +1,19 @@
 $width: 100vw / 1440px;
 $height: 100vh / 750px;
 
-.topic{
-  font-family: Lora;
+.topic {
+  font-family: Lora, serif;
   font-style: normal;
   font-size: 6.47vmin;
-  font-weight:normal;
+  font-weight: normal;
   line-height: 6.6vh;
 }
-.textContent{
+
+.textContent {
   flex-shrink: 0;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-style: normal;
+  font-weight: 400;
   margin-top: 3.2vh;
   margin-bottom: 6.4vh;
   line-height: 3.2vh;

@@ -2,7 +2,6 @@ $width: 100vw / 1440px;
 $height: 100vh / 750px;
 
 .backgroundColorContainer {
-  //min-height: $height*1029px;
   background: #F3EDED;
   display: flex;
 }
@@ -21,33 +20,37 @@ $height: 100vh / 750px;
 }
 
 .row1 {
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;
-  font-size: $height*48px;
+  font-size: $width*35px;
   line-height: $width*56px;
   color: #251401;
 }
 
 .row2 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row3 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row4 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row5 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row6 {
   align-self: flex-end;
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;
   font-size: $height*32px;
@@ -58,18 +61,18 @@ $height: 100vh / 750px;
 
 .questString {
   padding-right: 3vh;
-  flex: 1 0;
-  font-family: 'Lora';
+  flex: 1 2;
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: $height*40px;
+  font-size: $width*30px;
   line-height: $height*48px;
   color: #251401;
 }
 
 .contentText {
   flex: 1 0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: $height*16px;

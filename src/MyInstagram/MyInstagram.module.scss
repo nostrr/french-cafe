@@ -21,7 +21,7 @@ $height: 100vh / 750px;
 }
 
 .secondRow{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size:  $width*16px;
@@ -61,7 +61,7 @@ $height: 100vh / 750px;
 }
 
 .title {
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;
   font-size: $width*48px;
@@ -94,7 +94,7 @@ $height: 100vh / 750px;
 
 .frenchCafe{
   align-self: flex-start;
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
   font-style: italic;
   font-weight: 500;
   font-size: $height*48px;

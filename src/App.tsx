@@ -20,61 +20,30 @@ const router = createBrowserRouter([
         <NavBar />
       </header>
       <main>
-        <MainPage />
-        <AboutUs/>
-        <WeProud/>
-        <WeAreTrusted/>
-        <MyInstagram/>
-        <YourQuestions/>
-        <WriteToUs/>
-        {/*<Outlet />*/}
+        <Outlet />
       </main>
       <footer>
-          <Footer/>
+        <Footer />
       </footer>
-    </div>,
+    </div>
+    ,
     children: [
       {
         path: '/',
-        // element: <MainPage />,
-        element: <WriteToUs/>
+        element: <>
+          <MainPage />
+          <AboutUs />
+          <WeProud />
+          <WeAreTrusted />
+          <MyInstagram />
+          <YourQuestions />
+          <WriteToUs />
+        </>,
       },
       {
-        path: 'Books',
+        path: 'books',
         element: <BooksPage />,
       },
-      {
-        path: 'AboutUs',
-        element: <AboutUs />,
-      },
-      {
-        path: 'OurCourses',
-        element: <div></div>,
-      },
-      {
-        path: 'OurProducts',
-        element: <div></div>,
-      },
-      {
-        path: 'Team',
-        element: <div></div>,
-      },
-      {
-        path: 'WeProud',
-        element: <WeProud />,
-      },
-      {
-        path: 'WeAreTrusted',
-        element: <WeAreTrusted />,
-      },
-      {
-        path: 'MyInstagram',
-        element: <MyInstagram />,
-      },
-      {
-        path: 'YourQuestions',
-        element:<YourQuestions/>
-      }
     ],
   },
 ], {

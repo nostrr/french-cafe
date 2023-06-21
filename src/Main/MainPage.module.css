@@ -14,9 +14,10 @@
 
 .mainBlock {
     margin: 34.49vh 8vw 39.83vh 65.7vw;
-    font-size: 3.5vw;
+    font-size: 6vmin;
+    line-height: 7vmin;
     font-style: normal;
+    font-weight: 600;
     color: #251401;
-    font-family: Lora;
-    line-height: 4vw;
+    font-family: Lora, serif;
 }

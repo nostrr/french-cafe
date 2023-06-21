@@ -18,5 +18,9 @@
 .linkStyle{
     text-decoration: none;
     color: #140202;
-    font-family: Open Sans;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*font-size: 16px;*/
+    /*line-height: 24px;*/
 }

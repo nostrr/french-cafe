@@ -16,7 +16,7 @@ $height: 100vh / 750px;
 }
 
 .topic{
-  font-family: Lora;
+  font-family: Lora, sans-serif;
   font-size: 6.47vmin;
   font-weight:normal;
   line-height: 6.6vh;
@@ -59,7 +59,7 @@ $height: 100vh / 750px;
   text-align: center;
   text-decoration: none;
   color: white;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
 }
 
 .rightPhoto{
@@ -70,7 +70,7 @@ $height: 100vh / 750px;
 .aboutUsTitle{
   align-self: center;
   margin-top: 80%;
-  font-family: 'Lora';
+  font-family: Lora, serif;
   font-style: normal;
   font-size: $width * 32px;
   line-height: $height*36px;

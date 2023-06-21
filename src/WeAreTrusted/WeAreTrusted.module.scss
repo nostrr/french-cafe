@@ -30,7 +30,7 @@ $height: 100vh / 750px;
 }
 
 .title {
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -48,7 +48,7 @@ $height: 100vh / 750px;
 
 .firstRow {
   //min-width: $width * 727px;
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;
   font-size: $height *32px;
@@ -64,7 +64,7 @@ $height: 100vh / 750px;
 
 .commentPerson{
   padding-left: 2vw;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: $height*16px;
@@ -74,7 +74,7 @@ $height: 100vh / 750px;
 
 .thirdRow{
   align-self: flex-end;
-  font-family: 'Lora';
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;
   font-size: $height*32px;
