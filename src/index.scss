@@ -20,5 +20,7 @@ code {
 .globalContainer{
     display: flex;
     flex-direction: column;
-    max-width: none;
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 }
