@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/french-cafe/static/css/main.b150611e.css",
+    "main.css": "/french-cafe/static/css/main.efe820b3.css",
     "main.js": "/french-cafe/static/js/main.158a6a86.js",
     "static/js/787.53c2c41c.chunk.js": "/french-cafe/static/js/787.53c2c41c.chunk.js",
     "static/media/img.png": "/french-cafe/static/media/img.4596d3ad6972f7a89f59.png",
@@ -10,12 +10,12 @@
     "static/media/img1.png": "/french-cafe/static/media/img1.adced78e4f1ce178e012.png",
     "static/media/logo.svg": "/french-cafe/static/media/logo.4aa59fa19f38b0fb72a33e236d007698.svg",
     "index.html": "/french-cafe/index.html",
-    "main.b150611e.css.map": "/french-cafe/static/css/main.b150611e.css.map",
+    "main.efe820b3.css.map": "/french-cafe/static/css/main.efe820b3.css.map",
     "main.158a6a86.js.map": "/french-cafe/static/js/main.158a6a86.js.map",
     "787.53c2c41c.chunk.js.map": "/french-cafe/static/js/787.53c2c41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b150611e.css",
+    "static/css/main.efe820b3.css",
     "static/js/main.158a6a86.js"
   ]
 }
