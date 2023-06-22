@@ -5,7 +5,7 @@ export const MainPage = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.mainBlock}>
-        <div>
+        <div className={styles.mainString}>
           Атмосферно<br/>
           та естетично<br/>
           про французьку<br/>

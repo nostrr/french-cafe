@@ -29,7 +29,14 @@
     @media (max-width: 600px) {
         justify-content: center;
         margin-right: 0;
-        //min-width: 440px ;
         color : white;
+    }
+}
+
+.mainString{
+    @media (max-width: 600px) {
+        background-color: #993510;
+        border-radius: 10%;
+        opacity: 0.5;
     }
 }

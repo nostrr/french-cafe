@@ -3,10 +3,8 @@ $height: 100vh / 750px;
 
 .backgroundColorContainer {
   background: #F3EDED;
+  width: 100%;
   display: flex;
-  @media (max-width: 600px) {
-    //min-width: 600px ;
-  }
 }
 
 .mainContainer {
@@ -14,6 +12,7 @@ $height: 100vh / 750px;
   margin-bottom: 15vmin;
   margin-left: 6.94vw;
   margin-right: 6.94vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -29,26 +28,47 @@ $height: 100vh / 750px;
   font-size: $width*35px;
   line-height: $width*56px;
   color: #251401;
+  @media (max-width: 600px) {
+    font-size: 4vh;
+    line-height: 5vh;
+  }
+
 }
 
 .row2 {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .row3 {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .row4 {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .row5 {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .row6 {
@@ -71,6 +91,10 @@ $height: 100vh / 750px;
   font-size: $width*30px;
   line-height: $height*48px;
   color: #251401;
+  @media (max-width: 600px) {
+    font-size: 3vh;
+    line-height: 5vh;
+  }
 }
 
 .contentText {

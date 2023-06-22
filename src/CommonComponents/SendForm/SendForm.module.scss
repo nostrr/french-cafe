@@ -59,6 +59,10 @@ textarea:focus {
   font-weight: 400;
   font-size: $width*16px;
   line-height: $width*28px;
+  @media (max-width: 600px) {
+    font-size: 10px;
+    line-height: 10px;
+  }
 }
 
 .button:disabled {

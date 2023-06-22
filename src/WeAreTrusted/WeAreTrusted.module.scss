@@ -2,17 +2,17 @@ $width: 100vw / 1440px;
 $height: 100vh / 750px;
 
 .backgroundColorContainer {
+  width: 100%;
   padding-top: 15vmin;
   padding-bottom: 15vmin;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: stretch;
   background-color: #993510;
-  min-height: $height * 700px;
 }
 
 .mainContainer {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -39,6 +39,9 @@ $height: 100vh / 750px;
   font-size: 48px;
   line-height: 56px;
   color: #F3EDED;
+  @media (max-width: 600px) {
+    font-size: 30px;
+  }
 }
 
 .col2 {
@@ -56,6 +59,10 @@ $height: 100vh / 750px;
   font-size: $height *32px;
   line-height:$height * 42px;
   color: #F3EDED;
+  @media (max-width: 600px) {
+    font-size: 16px;
+    line-height:25px;
+  }
 }
 
 .secondRow{
