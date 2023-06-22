@@ -2,22 +2,19 @@ $width: 100vw / 1440px;
 $height: 100vh / 750px;
 
 .backgroundColorContainer {
-  display: flex;
+  padding-top: 15vmin;
+  padding-bottom: 15vmin;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: stretch;
   background-color: #993510;
   min-height: $height * 700px;
-  @media (max-width: 600px) {
-    min-width: 600px ;
-  }
 }
 
 .mainContainer {
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 15vmin;
-  margin-bottom: 15vmin;
   justify-content: flex-start;
   align-items: flex-start;
   @media (max-width: 600px) {
@@ -53,7 +50,6 @@ $height: 100vh / 750px;
 }
 
 .firstRow {
-  //min-width: $width * 727px;
   font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;

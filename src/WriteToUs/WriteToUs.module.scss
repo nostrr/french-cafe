@@ -2,14 +2,12 @@ $width: 100vw / 1440px;
 $height: 100vh / 750px;
 
 .backgroundColorContainer {
+  width: 100vw;
   display: flex;
-  @media (max-width: 600px) {
-    min-width: 600px ;
-  }
 }
 
 .mainContainer {
-  flex: 1;
+  width: 100vw;
   margin-top: 15vmin;
   margin-bottom: 15vmin;
   margin-left: 6.94vw;
@@ -18,6 +16,9 @@ $height: 100vh / 750px;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .col {
@@ -27,9 +28,7 @@ $height: 100vh / 750px;
 .col1 {
     display: flex;
     justify-content: flex-end;
-  @media (max-width: 600px) {
-    justify-content: center;
-  }
+
 }
 
 .col2 {
@@ -46,7 +45,7 @@ $height: 100vh / 750px;
   font-family: 'Lora', serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 5.6vmin;
+  line-height: 5.6vmin;
   color: #251401;
 }

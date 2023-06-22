@@ -14,9 +14,6 @@ export const NavBar = () => {
         </Link>
       </div>
       <div className={styles.navBarItem}>
-
-      </div>
-      <div className={styles.navBarItem}>
         <Link className={styles.linkStyle} to='/'>
           Про нас
         </Link>
@@ -35,9 +32,6 @@ export const NavBar = () => {
         <Link className={styles.linkStyle} to='/'>
           Команда
         </Link>
-      </div>
-      <div className={styles.navBarItem}>
-
       </div>
       <div className={styles.navBarItem}>
         <ModalButton />

@@ -1,5 +1,5 @@
 import styles from './WeAreTrusted.module.scss';
-import photo from './img.png'
+import photo from './img.png';
 
 export const WeAreTrusted = () => {
   return (
@@ -13,21 +13,21 @@ export const WeAreTrusted = () => {
             Дякую за такий чудовий та інтенсивний курс,
             хороший фітбек та підтримку! Уся наша
             група зробила великий крок вперед до мрії
-            розмовляти французькою мовою.<br/>
+            розмовляти французькою мовою.<br />
             Merci Beaucoup!
           </div>
           <div className={styles.secondRow}>
-              <div>
-                <img src={photo} alt='Image' />
-              </div>
-              <div className={styles.commentPerson}>
-                Надія,<br/>
-                Студентка курсу B1
-              </div>
+            <div>
+              <img src={photo} alt='Image' />
+            </div>
+            <div className={styles.commentPerson}>
+              Надія,<br />
+              Студентка курсу B1
+            </div>
           </div>
           <div className={styles.thirdRow}>
-            Відгуки&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
-            <br/>
+            Відгуки&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
+            <br />
           </div>
         </div>
       </div>

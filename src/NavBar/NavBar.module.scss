@@ -1,24 +1,23 @@
 .navBarContainer{
+    width: 100vw;
     margin-top: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
-    width: 100%;
     color:#140202;
     @media (max-width: 600px) {
-        min-width: 500px ;
+        //min-width: 500px ;
     }
 }
 
-.navBarItem{
-    display: flex;
-    flex-wrap: wrap;
-    @media (max-width: 600px) {
-        min-width: 100px ;
-    }
-}
+//.navBarItem{
+//    display: flex;
+//    flex-wrap: wrap;
+//    @media (max-width: 600px) {
+//        //min-width: 100px ;
+//    }
+//}
 
 .linkStyle{
     text-decoration: none;
@@ -26,6 +25,4 @@
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-    /*font-size: 16px;*/
-    /*line-height: 24px;*/
 }
