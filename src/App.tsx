@@ -15,7 +15,7 @@ import { Footer } from './Footer/Footer';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div style={{display:'flex', flexDirection:'column'}}>
+    element: <div className='globalContainer' >
       <header className='App-header'>
         <NavBar />
       </header>
