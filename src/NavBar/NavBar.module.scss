@@ -4,15 +4,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    position: fixed;
-    z-index: 1;
-    top: 0;
+
     width: 100%;
     color:#140202;
+    @media (max-width: 600px) {
+        min-width: 500px ;
+    }
 }
 
 .navBarItem{
     display: flex;
+    flex-wrap: wrap;
+    @media (max-width: 600px) {
+        min-width: 100px ;
+    }
 }
 
 .linkStyle{

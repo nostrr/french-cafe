@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './NavBar.module.css';
+import styles from './NavBar.module.scss';
 import { ModalButton } from '../Main/ModalButton';
 import logo from '../logo.svg';
 import { Link } from 'react-router-dom';

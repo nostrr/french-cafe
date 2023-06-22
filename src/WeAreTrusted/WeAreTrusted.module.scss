@@ -8,6 +8,9 @@ $height: 100vh / 750px;
   justify-content: stretch;
   background-color: #993510;
   min-height: $height * 700px;
+  @media (max-width: 600px) {
+    min-width: 600px ;
+  }
 }
 
 .mainContainer {
@@ -17,6 +20,9 @@ $height: 100vh / 750px;
   margin-bottom: 15vmin;
   justify-content: flex-start;
   align-items: flex-start;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .col {

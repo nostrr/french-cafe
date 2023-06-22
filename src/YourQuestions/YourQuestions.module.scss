@@ -4,6 +4,9 @@ $height: 100vh / 750px;
 .backgroundColorContainer {
   background: #F3EDED;
   display: flex;
+  @media (max-width: 600px) {
+    min-width: 600px ;
+  }
 }
 
 .mainContainer {

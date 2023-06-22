@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './ModalButton.module.css';
+import styles from './ModalButton.module.scss';
 import 'react-phone-input-2/lib/high-res.css';
 import { SendForm } from '../CommonComponents/SendForm/SendForm';
 

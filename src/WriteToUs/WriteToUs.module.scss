@@ -3,6 +3,9 @@ $height: 100vh / 750px;
 
 .backgroundColorContainer {
   display: flex;
+  @media (max-width: 600px) {
+    min-width: 600px ;
+  }
 }
 
 .mainContainer {
@@ -24,6 +27,9 @@ $height: 100vh / 750px;
 .col1 {
     display: flex;
     justify-content: flex-end;
+  @media (max-width: 600px) {
+    justify-content: center;
+  }
 }
 
 .col2 {
