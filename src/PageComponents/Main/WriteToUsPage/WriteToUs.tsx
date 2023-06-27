@@ -1,5 +1,5 @@
 import styles from './WriteToUs.module.scss';
-import { SendForm } from '../CommonComponents/SendForm/SendForm';
+import { SendForm } from '../../../CommonComponents/SendForm/SendForm';
 import photo from './img.png';
 
 export const WriteToUs = () => {

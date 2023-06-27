@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './MainPage.module.scss';
+import styles from './Main.module.scss';
 
-export const MainPage = () => {
+export const Main = () => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.mainBlock}>

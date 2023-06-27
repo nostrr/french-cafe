@@ -1,5 +1,5 @@
 import styles from './WeProud.module.scss';
-import { TopicContent } from '../CommonComponents/TopicContent';
+import { TopicContent } from '../../../CommonComponents/TopicContent/TopicContent';
 import photo1 from './img.png';
 import { Link } from 'react-router-dom';
 import photo2 from './img2.png';

@@ -1,0 +1,25 @@
+@import "../../../variables";
+
+.mainContainer{
+  //width: 100%;
+  background: #F3EDED;
+  padding: 15vmin 15vmin 5rem 15vmin;
+}
+
+.mainContainer__mainTitle{
+  color: #251401;
+  font-size: remNew(48px);
+  font-family: Lora, serif;
+  font-weight: 500;
+  line-height: remNew(56px);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.mainContainer__info{
+  color: #9B9185;
+  text-align: center;
+  font-size: remNew(16px);;
+  font-family: Open, sans-serif;
+  line-height: remNew(24px);
+}

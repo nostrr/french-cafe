@@ -1,21 +1,17 @@
 import React from 'react';
 import './App.css';
-import { MainPage } from './Main/MainPage';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import { BooksPage } from './Books/BooksPage';
 import { NavBar } from './NavBar/NavBar';
-import { AboutUs } from './AboutUs/AboutUs';
-import { WeProud } from './WeProud/WeProud';
-import { WeAreTrusted } from './WeAreTrusted/WeAreTrusted';
-import { MyInstagram } from './MyInstagram/MyInstagram';
-import { YourQuestions } from './YourQuestions/YourQuestions';
-import { WriteToUs } from './WriteToUs/WriteToUs';
+import { AboutUs } from './PageComponents/Main/AboutUsPage/AboutUs';
 import { Footer } from './Footer/Footer';
+import { MainPage } from './PageComponents/Main/MainPage';
+import { OurCoursesPage } from './PageComponents/OurCorses/OurCoursesPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div className='globalContainer' >
+    element: <div className='globalContainer'>
       <header className='App-header'>
         <NavBar />
       </header>
@@ -25,24 +21,21 @@ const router = createBrowserRouter([
       <footer>
         <Footer />
       </footer>
-    </div>
-    ,
+    </div>,
     children: [
       {
         path: '/',
         element: <>
-          <MainPage />
-          <AboutUs />
-          <WeProud />
-          <WeAreTrusted />
-          <MyInstagram />
-          <YourQuestions />
-          <WriteToUs />
+          <MainPage/>
         </>,
       },
       {
         path: 'books',
         element: <BooksPage />,
+      },
+      {
+        path: 'OurCoursesPage',
+        element: <OurCoursesPage/>
       },
     ],
   },

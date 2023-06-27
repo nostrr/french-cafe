@@ -2,7 +2,7 @@ import styles from './AboutUs.module.scss';
 import { Link } from 'react-router-dom';
 import photo from './img.png';
 import photo2 from './img2.png';
-import { TopicContent } from '../CommonComponents/TopicContent';
+import { TopicContent } from '../../../CommonComponents/TopicContent/TopicContent';
 
 export const AboutUs = () => {
   return (

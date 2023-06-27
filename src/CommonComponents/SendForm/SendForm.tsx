@@ -2,7 +2,7 @@ import React, { Dispatch, FC, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { sendEmail } from '../../redux/main.thunk';
 import { emailBody } from '../../email/emailBody';
-import { formValidation } from '../../Main/formValidation';
+import { formValidation } from '../ModalButton/formValidation';
 import PhoneInput from 'react-phone-input-2';
 import styles from './SendForm.module.scss';
 
@@ -24,7 +24,9 @@ interface ValidForm {
 const inputStyles = {
   width: '100%',
   height: '3vh',
-  fontSize: '1.5vmin'
+  fontSize: '1.5vmin',
+  borderRadius: '20px',
+  background: '#F3EDED'
 };
 const containerStyles = { marginBottom: '4%' };
 export const SendForm: FC<any> = ({ setShowForm }) => {

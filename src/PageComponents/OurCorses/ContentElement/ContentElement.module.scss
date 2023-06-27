@@ -1,0 +1,59 @@
+@import '../../../variables';
+
+.mainContainer{
+  width: 100%;
+  display: flex;
+}
+
+.mainContainer__column1{
+  flex: 1 1 50%;
+  display: flex;
+}
+
+.mainContainer__column2{
+  flex: 1 1 50%;
+  padding: 0 0 0 1rem;
+}
+
+.column1__image{
+  max-width: 70%;
+  object-fit: contain;
+}
+
+.column2__smallTitle{
+  color: #251401;
+  font-size: remNew(16px);
+  font-family: Open Sans,sans-serif;
+  line-height: remNew(24px);
+}
+
+.column2__largeTitle{
+  color: #251401;
+  font-size: remNew(40px);
+  font-family: Lora, serif;
+  line-height: remNew(48px);
+  padding: remNew(24px) 0 0 0 ;
+}
+
+.column2__descriptions{
+  padding: remNew(24px) 0 0 0 ;
+  color: #9B9185;
+  font-size: remNew(16px);
+  font-family: Open Sans, sans-serif;
+  line-height: remNew(24px);
+}
+
+.column2__list{
+  padding: remNew(24px) 0 0 remNew(20px) ;
+  color: #9B9185;
+  font-size: remNew(16px);
+  font-family: Open Sans, sans-serif;
+  line-height: remNew(30px);
+}
+
+.column2__button{
+  padding: remNew(56px) 0 0 0 ;
+}
+.column2__button_width{
+  width: remNew(288px);
+}

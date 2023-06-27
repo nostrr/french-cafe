@@ -18,7 +18,6 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    /*display: flex;*/
     font-size: calc(10px + 2vmin);
 }
 
