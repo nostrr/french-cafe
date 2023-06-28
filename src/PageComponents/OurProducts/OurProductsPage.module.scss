@@ -1,0 +1,9 @@
+@import "../../variables";
+
+.contentElement{
+  width: 100%;
+  padding: remNew(80px) remNew(245px) remNew(80px) remNew(206px);
+  @media (max-width: 600px) {
+    padding: 1rem 5rem 1rem 1.2rem;
+  }
+}

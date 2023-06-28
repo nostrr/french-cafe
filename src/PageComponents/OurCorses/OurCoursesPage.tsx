@@ -1,5 +1,5 @@
-import { Main } from './MainPage/Main';
-import { ContentElement } from './ContentElement/ContentElement';
+import { Main } from '../../CommonComponents/MainHeaderTamplate/Main';
+import { ContentElement } from '../../CommonComponents/ContentElement/ContentElement';
 import photo from './img1.png';
 import photo2 from './img2.png';
 import photo3 from './img3.png';

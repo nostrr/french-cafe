@@ -3,6 +3,7 @@ import styles from './NavBar.module.scss';
 import { ModalButton } from '../CommonComponents/ModalButton/ModalButton';
 import logo from '../logo.svg';
 import { Link } from 'react-router-dom';
+import { OurProductsPage } from '../PageComponents/OurProducts/OurProductsPage';
 
 export const NavBar = () => {
 
@@ -24,7 +25,7 @@ export const NavBar = () => {
         </Link>
       </div>
       <div>
-        <Link className={styles.linkStyle} to='/'>
+        <Link className={styles.linkStyle} to='OurProductsPage'>
           Наші продукти
         </Link>
       </div>

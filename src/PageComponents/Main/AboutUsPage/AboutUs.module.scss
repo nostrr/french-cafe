@@ -1,23 +1,12 @@
 $width: 100vw / 1440px;
 $height: 100vh / 750px;
 
-@function pxToVh($px){
-  @return $px;
-}
-
-@function pxToVw($px) {
-  $vwValue: ($px / 1440) * 100vw;
-  @return $vwValue;
-}
 
 .pageImage {
   background: #F3EDED;
   z-index: 1;
   display: flex;
   min-height: 100vh;
-  @media (max-width: 600px) {
-    //min-width: 600px ;
-  }
 }
 
 .mainContainer {
@@ -39,9 +28,6 @@ $height: 100vh / 750px;
 .col1{
   flex:1 0;
   padding-left: 6.94vw;
-  @media (max-width: 600px) {
-    //min-width: 500px ;
-  }
 }
 
 
@@ -58,9 +44,6 @@ $height: 100vh / 750px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  @media (max-width: 600px) {
-    //min-width: 500px ;
-  }
 }
 
 .middlePhoto{
@@ -81,9 +64,6 @@ $height: 100vh / 750px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  @media (max-width: 600px) {
-    //min-width: 500px ;
-  }
 }
 
 .aboutUsTitle{

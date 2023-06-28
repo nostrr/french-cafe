@@ -7,6 +7,7 @@ import { AboutUs } from './PageComponents/Main/AboutUsPage/AboutUs';
 import { Footer } from './Footer/Footer';
 import { MainPage } from './PageComponents/Main/MainPage';
 import { OurCoursesPage } from './PageComponents/OurCorses/OurCoursesPage';
+import { OurProductsPage } from './PageComponents/OurProducts/OurProductsPage';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         path: 'OurCoursesPage',
         element: <OurCoursesPage/>
       },
+      {
+        path: 'OurProductsPage',
+        element: <OurProductsPage/>
+      }
     ],
   },
 ], {
