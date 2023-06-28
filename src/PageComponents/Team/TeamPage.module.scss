@@ -1,0 +1,111 @@
+@import "../../variables";
+
+.mainContainer{
+}
+
+.mainContainer__row{
+  padding: remNew(80px) remNew(96px) remNew(80px) remNew(100px);
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.row__col1{
+  flex: 1 0 40%;
+}
+
+.row__col2{
+  flex: 1 0 40%;
+}
+
+.row__col3{
+  flex: 1 0 20%;
+}
+
+.col_secondRow{
+  flex: 1 0 33.33%;
+}
+
+.col1{
+  padding: 0 remNew(100px) 0 0;
+}
+
+.col1__title{
+  color: #251401;
+  font-size: remNew(16px);
+  font-family: Open Sans,sans-serif;
+  line-height: remNew(24px);
+}
+
+.col1__teacherName{
+  margin: remNew(24px) 0 0 0;
+  color: #251401;
+  font-size: remNew(48px);
+  font-family: Lora, serif;
+  font-weight: 500;
+  line-height: remNew(56px);
+}
+
+.col1__intro{
+  margin: remNew(279px) 0 0 0;
+  color: #9B9185;
+  font-size: remNew(16px);
+  font-family: Open Sans, sans-serif;
+  line-height: remNew(24px);
+}
+
+.col1__button{
+  margin: remNew(56px) 0 0 0;
+}
+
+.col2__photo1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.col3{
+  display: flex;
+  justify-content: center;
+}
+
+.col3__photo2{
+  height: remNew(248px);
+  width: auto;
+}
+
+.col3__photo3_secondRow{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.col1__intro_secondRow{
+  margin: remNew(380px) 0 0 0;
+}
+
+.col2__row3{
+  flex : 1 0 30%;
+}
+
+.col3__row3{
+  flex : 1 0 30%;
+}
+
+.col2__row3_photo4{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0 remNew(70px) 0 0;
+}
+
+.col3__photo2_photo5{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0 0 0 remNew(70px);
+}
