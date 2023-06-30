@@ -1,21 +1,18 @@
-import React from 'react';
 import './App.css';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import { BooksPage } from './Books/BooksPage';
-import { NavBar } from './NavBar/NavBar';
 import { Footer } from './Footer/Footer';
 import { MainPage } from './PageComponents/Main/MainPage';
 import { OurCoursesPage } from './PageComponents/OurCorses/OurCoursesPage';
 import { OurProductsPage } from './PageComponents/OurProducts/OurProductsPage';
 import { TeamPage } from './PageComponents/Team/TeamPage';
+import { MainMenu } from './CommonComponents/MainMenu/MainMenu';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <div className='globalContainer'>
-      <header className='App-header'>
-        <NavBar />
-      </header>
+      <MainMenu/>
       <main>
         <Outlet />
       </main>

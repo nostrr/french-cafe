@@ -14,11 +14,18 @@
     }
 }
 
-.App-header {
+.searchMenu {
     position: fixed;
     z-index: 1;
     top: 0;
     font-size: calc(10px + 2vmin);
+    transition: background 1s ease;
+}
+
+.searchMenu.sticky {
+    background: white;
+    transition: background 1s ease;
+    /* Дополнительные стили для "липкого" состояния */
 }
 
 .App-link {
