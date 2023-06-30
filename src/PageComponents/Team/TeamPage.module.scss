@@ -123,6 +123,9 @@
 }
 
 .col2__row3 {
+  display: flex;
+  justify-content: center;
+
   flex: 1 0 30%;
   padding: 1rem;
   @media (max-width: 700px) {
@@ -132,6 +135,8 @@
 }
 
 .col3__row3 {
+  display: flex;
+  justify-content: center;
   flex: 1 0 30%;
   padding: 1rem;
   @media (max-width: 700px) {
@@ -140,10 +145,9 @@
 }
 
 .col2__row3_photo4 {
-  width: 100%;
+  width: 70%;
   height: 100%;
   object-fit: cover;
-  padding: 0 remNew(70px) 0 0;
   @media (max-width: 700px) {
     padding: 1rem;
     height: auto;
@@ -152,7 +156,9 @@
 }
 
 .col3__photo2_photo5 {
-  width: 100%;
+
+
+  width: 70%;
   height: 100%;
   object-fit: cover;
   @media (max-width: 700px) {
