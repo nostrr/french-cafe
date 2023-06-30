@@ -5,6 +5,9 @@
 
 .mainContainer__row{
   padding: remNew(80px) remNew(96px) remNew(80px) remNew(100px);
+  @media (max-width: 700px) {
+    padding: 1rem 1rem 1rem 1rem;
+  }
 }
 
 .row{
@@ -12,6 +15,10 @@
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 }
 
 .row__col1{
@@ -32,6 +39,10 @@
 
 .col1{
   padding: 0 remNew(100px) 0 0;
+
+  @media (max-width: 700px) {
+    padding: 0.5rem;
+  }
 }
 
 .col1__title{
@@ -39,6 +50,9 @@
   font-size: remNew(16px);
   font-family: Open Sans,sans-serif;
   line-height: remNew(24px);
+  @media (max-width: 700px) {
+    padding: 0.5rem;
+  }
 }
 
 .col1__teacherName{
@@ -48,6 +62,10 @@
   font-family: Lora, serif;
   font-weight: 500;
   line-height: remNew(56px);
+  @media (max-width: 700px) {
+    margin: 0.1rem 0 0 0;
+    padding: 0.5rem;
+  }
 }
 
 .col1__intro{
@@ -56,16 +74,28 @@
   font-size: remNew(16px);
   font-family: Open Sans, sans-serif;
   line-height: remNew(24px);
+
+  @media (max-width: 700px) {
+    margin: 0 0 0 0;;
+  }
 }
 
 .col1__button{
   margin: remNew(56px) 0 0 0;
+  @media (max-width: 700px) {
+    margin: remNew(30px) 0 0 0;
+    padding: 0.5rem;
+  }
 }
 
 .col2__photo1{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  @media (max-width: 700px) {
+    height: 50%;
+    width: 50%;
+  }
 }
 
 .col3{
@@ -76,6 +106,7 @@
 .col3__photo2{
   height: remNew(248px);
   width: auto;
+
 }
 
 .col3__photo3_secondRow{
@@ -86,14 +117,26 @@
 
 .col1__intro_secondRow{
   margin: remNew(380px) 0 0 0;
+  @media (max-width: 700px) {
+    margin: 0 0 0 0;
+  }
 }
 
 .col2__row3{
   flex : 1 0 30%;
+  padding: 1rem;
+  @media (max-width: 700px) {
+
+  }
+
 }
 
 .col3__row3{
   flex : 1 0 30%;
+  padding: 1rem;
+  @media (max-width: 700px) {
+      text-align: right;
+  }
 }
 
 .col2__row3_photo4{
@@ -101,11 +144,20 @@
   height: 100%;
   object-fit: cover;
   padding: 0 remNew(70px) 0 0;
+  @media (max-width: 700px) {
+    padding: 1rem;
+    height: auto;
+    width: 50%;
+  }
 }
 
 .col3__photo2_photo5{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  padding: 0 0 0 remNew(70px);
+  @media (max-width: 700px) {
+    padding: 0;
+    width: 50%;
+    height: auto;
+  }
 }
