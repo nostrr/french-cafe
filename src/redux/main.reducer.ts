@@ -1,19 +1,28 @@
-import {createSlice, Slice} from "@reduxjs/toolkit";
+import { createSlice, PayloadAction, Slice } from '@reduxjs/toolkit';
 import {sendEmail} from "./main.thunk";
 
 interface IMainState {
-    showLoader: boolean
+    showLoader: boolean,
+    showModalMenu: boolean,
+    showModalForm: boolean
 }
 
 const initialState: IMainState = {
-    showLoader: false
+    showLoader: false,
+    showModalMenu: false,
+    showModalForm: false
 }
 
 const mainSlice: Slice<IMainState> = createSlice({
     name: 'main',
     initialState: initialState,
     reducers:{
-
+        setShowModalMenu: (state, action: PayloadAction<boolean>) =>{
+            state.showModalMenu = action.payload;
+        },
+        setShowModalForm: (state, action: PayloadAction<boolean>) =>{
+            state.showModalForm = action.payload;
+        }
     },
     extraReducers:(builder)=>{
         builder
@@ -31,4 +40,4 @@ const mainSlice: Slice<IMainState> = createSlice({
 
 export default mainSlice.reducer;
 // eslint-disable-next-line no-empty-pattern
-export const {} = mainSlice.actions;
+export const {setShowModalMenu, setShowModalForm} = mainSlice.actions;

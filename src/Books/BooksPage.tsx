@@ -22,3 +22,21 @@ export const BooksPage = () => {
     </div>
   );
 };
+
+const func = async () => {
+  const prom = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('Hello from Promise');
+    }, 2000);
+  });
+
+  const prom2 = new Promise((resolve, reject) =>{
+    setInterval(() => {
+      resolve('Hello from Promise 2');
+    },5000);
+  });
+
+  console.log((await Promise.all([prom, prom2])));
+};
+
+//func();

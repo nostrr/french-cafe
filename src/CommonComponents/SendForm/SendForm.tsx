@@ -26,10 +26,10 @@ const inputStyles = {
   height: '3vh',
   fontSize: '1.5vmin',
   borderRadius: '20px',
-  background: '#F3EDED'
+  background: '#F3EDED',
 };
 const containerStyles = { marginBottom: '4%' };
-export const SendForm: FC<any> = ({ setShowForm }) => {
+export const SendForm: FC<any> = ({ setShowModal }) => {
   const dispatch: Dispatch<any> = useDispatch();
   const [formData, setFormData] = useState<FormData>({
     name: '',
@@ -60,8 +60,8 @@ export const SendForm: FC<any> = ({ setShowForm }) => {
     event.preventDefault();
     dispatch(sendEmail(emailBody(formData)));
 
-    if (typeof setShowForm === 'function')
-      setShowForm(false);
+    if (typeof setShowModal === 'function')
+      setShowModal(false);
 
     setFormData({
       name: '',

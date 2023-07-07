@@ -1,29 +1,35 @@
-import React, { useState } from 'react';
+import React, { FC } from 'react';
 import styles from './ModalButton.module.scss';
 import 'react-phone-input-2/lib/high-res.css';
-import { SendForm } from '../SendForm/SendForm';
 
 
-export const ModalButton = () => {
-  const [showForm, setShowForm] = useState(false);
-
+export const ModalButton: FC<any> = ({ children, showModal, setShowModalFunction }) => {
   const handleButtonClick = () => {
-    setShowForm(true);
+    setShowModalFunction(true);
   };
+
+  const buttonElement = React.cloneElement(children[0],
+    { onClick: handleButtonClick });
+
+  const modalWindow = React.cloneElement(children[1],
+    { setShowModal: (flag: boolean) => setShowModalFunction(flag) });
 
   return (
     <div>
-      <button className='button' onClick={handleButtonClick}>Напишіть нам</button>
-      {showForm && (
+      {buttonElement}
+      {showModal && (
         <div className={styles.formContainer}>
-          <div className={styles.formBackground} onClick={() => setShowForm(false)}></div>
+          <div className={styles.formBackground} onClick={() => setShowModalFunction(false)}></div>
           <div className={styles.formWindow}>
-            <SendForm setShowForm={setShowForm} />
+            {modalWindow}
           </div>
         </div>
       )}
     </div>
   );
 };
+
+
+
 
 
